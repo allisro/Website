@@ -6,28 +6,38 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Recursive&family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="my-style.css">
         <style>
-            body{
+            body {
                 color: white;
                 font-family: 'Roboto Mono', monospace;
                 background-color: black;
             }
-            h1{
-                padding: 100px;
-            }
         </style>
     </head>
     <body> <!--info to be seen on webpage-->
-        <div>
-            <nav class="nav justify-content-end">
-                <a class="nav-link" href="#" style="color:white;">About Me</a>
-                <a class="nav-link" href="#" style="color:white;">Projects</a>
-                <a class="nav-link" href="#" style="color:white;">Gallery</a>
+        <div class="fixed-top" style="height: 10px; padding-top: 0px;">
+            <nav id="nav" class="nav justify-content-end">
+                <a class="nav-link" href="#bio">About Me</a>
+                <a class="nav-link" href="#projects" >Projects</a>
+                <a class="nav-link" href="#gallery" >Gallery</a>
               </nav>
         </div>
-        <div>
-            <h1>Allison Serio</h1> 
-            About me
-        </div>    
+
+        <div style="padding: 100px;">
+            <h1> Allison Serio</h1> 
+        </div>
+
+        <div id="bio">
+            <h4>About Me</h4>
+        </div>
+
+        <div id="projects" style="color: black; background-color: white;">
+            <h4>Projects</h4>
+        </div>
+
+        <div id="gallery">
+            <h4>Gallery</h4>
+        </div>   
     </body>
 </html>

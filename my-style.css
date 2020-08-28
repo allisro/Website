@@ -1,0 +1,18 @@
+div {
+    height: 100vh;
+    padding-top: 50px; 
+}
+
+h4 {
+    text-align: center;
+}
+
+#nav a{
+    color: white;
+    text-decoration:none;
+}
+
+#nav a:hover {
+   color: chartreuse;
+   text-decoration: none;
+}
