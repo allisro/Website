@@ -1,18 +1,29 @@
-div {
-    height: 100vh;
-    padding-top: 50px; 
-}
-
 h4 {
-    text-align: center;
-}
-
-#nav a{
-    color: white;
-    text-decoration:none;
+    padding-left: 15px;
 }
 
 #nav a:hover {
    color: chartreuse;
    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+.card:hover {
+    top: -10px;
+}
+
+.card-img {
+    transition: all 0.5s ease;
+    -webkit-filter: blur(0px); /* Chrome, Safari, Opera */
+    filter: blur(0px);
+}
+
+.card:hover > *:not(.card-img-overlay) {
+    transition: all 0.5s ease;
+    -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
 }
