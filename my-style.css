@@ -10,20 +10,22 @@ h4 {
 .card {
     position: relative;
     top: 0;
-    transition: top ease 0.5s;
+    /* transition: top ease 0.5s; */
+    transition: transform 0.5s;
   }
 .card:hover {
-    top: -10px;
+    /* top: -10px; */
+    transform: scale(1.05);
 }
 
-.card-img {
+/* .card-img {
     transition: all 0.5s ease;
-    -webkit-filter: blur(0px); /* Chrome, Safari, Opera */
+    -webkit-filter: blur(0px);
     filter: blur(0px);
 }
 
 .card:hover > *:not(.card-img-overlay) {
     transition: all 0.5s ease;
-    -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    -webkit-filter: blur(2px);
     filter: blur(2px);
-}
+} */
