@@ -2,10 +2,6 @@ h4 {
     padding-left: 15px;
 }
 
-#nav a:hover {
-   color: chartreuse;
-   text-decoration: none;
-}
 
 .card {
     position: relative;
@@ -17,6 +13,8 @@ h4 {
     /* top: -10px; */
     transform: scale(1.05);
 }
+
+a { color: inherit; }
 
 /* .card-img {
     transition: all 0.5s ease;

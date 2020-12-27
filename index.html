@@ -12,18 +12,20 @@
 <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="my-style.css">
         <style>
             body {
-                color:black;
+                color:#1000c3;
                 font-family: 'B612', sans-serif;
-                background-color:white;
+                background-color:#7bfbcc;
             }
         </style>
     </head>
     <body>
-        <nav id="nav" class="navbar navbar-expand-lg sticky-top navbar-dark bg" style="background-color: black;">
-            <a class="navbar-brand" href="#" style="font: weight bold;">Allison Serio</a>
+        <nav id="nav" class="navbar navbar-expand-lg sticky-top navbar-dark bg" style="color: white;background-color: #1000c3;">
+            <a class="navbar-brand" href="#" style="font-weight:bold; font-style: italic;">Allison Serio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,50 +38,56 @@
         </nav>
 
         <div id="bio" style="padding-top: 50px;">
-            <h4>About Me</h4>
-            <p style="padding: 50px;">
+            <h4 style="font-weight:bold;">About Me</h4>
+            <p style="padding: 50px; color: black;">
                 Hello! I'm Allison, a 4th year MIT student studying computer science and architecture. I'm originally from sunny Los Angeles, CA, and my interests include human computer
                 interaction and user experience, and I love drawing and animation. Below is a sample of what I've been currently doing, check it out!
             </p> 
         </div>
 
         <div id="projects" style="padding-top: 50px;">
-            <h4 style="margin-bottom: 20px;">Projects</h4>
+            <h4 style="margin-bottom: 20px; font-weight:bold;">Projects</h4>
 
             <div class="container">
                 <div class="row">
                     <div class="col" style="padding: 0px;">
-                        <div id="arrow" class="card border-dark" style="border-radius: 2%;">
-                            <img id="arrow1" class="card-img" src="assets/download_minpath.jpg" alt="Card image" style="border-radius: 2%;">
-                            <div class="card-img-overlay" style="color: white;">
-                              <h5 class="card-title" style="font-weight: bold; text-shadow: 0px 0px #2600ff;">Texture Synthesis</h5>
-                              <p class="card-text">Fall 2020 Computer Graphics project</p>
-                              <p class="card-text">Novemeber 2020</p>
-                              <a href="https://github.com/allisro/6837-final-project" class="card-link">GitHub</a>
+                        <div class="card" style="border-radius: 2%; z-index:1; color:white;">
+                            <img class="card-img" src="assets/download_minpath.jpg" alt="Card image" style="border-radius: 2%;">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title" style="font-weight: bold; text-shadow: 0px 0px #2600ff;"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Texture Synthesis</span></h5>
+                              <p class="card-text"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Fall 2020 Computer Graphics project</span></p>
+                              <a href="https://github.com/allisro/6837-final-project" class="card-link" style="background-color: black;
+                              box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">GitHub</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col" style="padding: 0px;">
-                        <div class="card border-secondary" style="border-radius: 2%; color:black; top: 71px;">
+                        <div class="card" style="border-radius: 2%; color:white; top: 71px; z-index:1;">
                             <img class="card-img" src="assets/bizhub.png" alt="Card image" style="border-radius: 2%;">
                             <div class="card-img-overlay">
-                              <h5 class="card-title" style="font-weight: bold">Cambridge BizHub</h5>
-                              <p class="card-text">Fall 2020 Software Studio project</p>
-                              <p class="card-text">November 2020</p>
-                              <a href="https://cambridge-bizhub.herokuapp.com/" class="card-link">Cambridge BizHub</a>
+                              <h5 class="card-title" style="font-weight: bold"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Cambridge BizHub</span></h5>
+                              <p class="card-text"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Fall 2020 Software Studio project</span></p>
+                              <a href="https://cambridge-bizhub.herokuapp.com/" class="card-link" style="background-color: black;
+                              box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Cambridge BizHub</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col" style="padding: 0px;">
-                        <div class="card border-secondary" style="border-radius: 2%; color: black; top: 172px;">
+                        <div class="card" style="border-radius: 2%; color:white; top: 172px; z-index:1;">
                             <img class="card-img" src="assets/Picture3.png" alt="Card image" style="border-radius: 2%;">
                             <div class="card-img-overlay">
-                              <h5 class="card-title" style="font-weight: bold;">Sentiment Analysis</h5>
-                              <p class="card-text">Afiniti externship project</p>
-                              <p class="card-text">January 2020</p>
-                              <a href="#" class="card-link">GitHub</a>
+                              <h5 class="card-title" style="font-weight: bold;"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Sentiment Analysis</span></h5>
+                              <p class="card-text"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Afiniti externship project</span></p>
+                              <a href="#" class="card-link" style="background-color: black;
+                              box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -87,24 +95,28 @@
 
                 <div class="row">
                     <div class="col" style="padding: 0px;">
-                        <div class="card" style="border-radius: 2%; color: black; width: 380px;">
+                        <div class="card" style="border-radius: 2%; color: white; width: 380px;">
                             <img class="card-img" src="assets/body.png" alt="Card image" style="border-radius: 2%; display: block; margin-left: auto; margin-right: auto; height: 14rem; width: 370px">
                             <div class="card-img-overlay">
-                              <h5 class="card-title" style="font-weight: bold;">Smart Textiles</h5>
-                              <p class="card-text">MIT Media Research project</p>
-                              <p class="card-text">February 2020</p>
-                              <a href="#" class="card-link">GitHub</a>
+                              <h5 class="card-title" style="font-weight: bold;"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Smart Textiles</span></h5>
+                              <p class="card-text"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">MIT Media Research project</span></p>
+                              <a href="#" class="card-link" style="background-color: black;
+                              box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">GitHub</a>
                             </div>
                         </div>
                     </div>
                     <div class="col" style="padding: 0px;">
-                        <div class="card border-dark" style="border-radius: 2%; color: black; top: -135px;">
+                        <div class="card" style="border-radius: 2%; color: black; top: -135px; z-index:1;">
                             <img class="card-img" src="assets/Picture1.png" alt="Card image" style="border-radius: 2%;">
                             <div class="card-img-overlay" style="color: white;">
-                              <h5 class="card-title" style="font-weight: bold;">Mesoscale Energy Model</h5>
-                              <p class="card-text">Leventhal Center of Advanced Urbanism</p>
-                              <p class="card-text">December 2019</p>
-                              <a href="https://github.com/allisro/Sentiment-Analysis-Project" class="card-link">GitHub</a>
+                              <h5 class="card-title" style="font-weight: bold;"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Mesoscale Energy Model</span></h5>
+                              <p class="card-text"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Leventhal Center of Advanced Urbanism</span></p>
+                              <a href="https://github.com/allisro/Sentiment-Analysis-Project" class="card-link" style="background-color: black;
+                              box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">GitHub</a>
                             </div>
                         </div>
                     </div> 
@@ -120,13 +132,15 @@
                         </div>
                     </div> -->
                     <div class="col" style="padding: 0px;">
-                        <div class="card border-secondary" style="border-radius: 2%; color: black; max-width: 250px; top: 27px;">
+                        <div class="card" style="border-radius: 2%; color: white; max-width: 250px; top: 27px; z-index:1;">
                             <img class="card-img" src="assets/image.png" alt="Card image" style="border-radius: 2%;">
                             <div class="card-img-overlay">
-                              <h5 class="card-title" style="font-weight: bold;">CLC South Sudan</h5>
-                              <p class="card-text">Develop 4 Good Project</p>
-                              <p class="card-text">September 2020</p>
-                              <a href="https://clcsouthsudan.wixsite.com/home" class="card-link">CLC South Sudan</a>
+                              <h5 class="card-title" style="font-weight: bold;"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">CLC South Sudan</span></h5>
+                              <p class="card-text"><span style="background-color: black;
+                                box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">Develop 4 Good Project</span></p>
+                              <a href="https://clcsouthsudan.wixsite.com/home" class="card-link" style="background-color: black;
+                              box-shadow: 0.5em 0 0 black,-0.5em 0 0 black;border-radius:25px;">CLC South Sudan</a>
                             </div>
                         </div>
                     </div>
@@ -163,8 +177,8 @@
         </div> -->
 
         <div id="contact" style="height: 200px; padding-top: 50px;">
-            <h4>Contact</h4>
-            <div style="display: flex; justify-content: center;">
+            <h4 style="font-weight:bold;">Contact</h4>
+            <div style="display: flex; justify-content: space-around; color: black;">
                 <span>aserio@mit.edu</span>
                 <a id="linkedin" href="https://www.linkedin.com/in/allison-serio">LinkedIn Profile</a>
                 <a id="github" href="https://github.com/allisro">Github</a>
